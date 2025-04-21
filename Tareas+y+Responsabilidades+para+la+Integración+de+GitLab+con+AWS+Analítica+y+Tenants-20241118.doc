@@ -1,0 +1,581 @@
+Message-ID: <414534458.27.1731930582606@22b3490fd626>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_26_957780862.1731930582606"
+
+------=_Part_26_957780862.1731930582606
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Tareas y Responsabilidades para la Integraci=C3=B3n de GitLab co=
+n AWS Anal=C3=ADtica y Tenants -V4</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Tareas y Responsabilidades para la Integraci=C3=B3n de GitLab con A=
+WS Anal=C3=ADtica y Tenants -V4</h1>
+    <div class=3D"Section1">
+        <p>Este documento detalla el conjunto de tareas necesarias para la =
+integraci=C3=B3n de GitLab con los entornos AWS de los tenants. Se describe=
+n las responsabilidades, los objetivos de cada tarea, los flujos de trabajo=
+ por entorno y las herramientas involucradas.</p>
+<hr>
+<h3 id=3D"TareasyResponsabilidadesparalaIntegraci=C3=B3ndeGitLabconAWSAnal=
+=C3=ADticayTenants-V4-Metodolog=C3=ADadeTareas:PorQu=C3=A9,D=C3=B3nde,Qui=
+=C3=A9n,yC=C3=B3mo"><strong>Metodolog=C3=ADa de Tareas: Por Qu=C3=A9, D=C3=
+=B3nde, Qui=C3=A9n, y C=C3=B3mo</strong></h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ba06bba2-c861-4e3e-85cd-fbb=
+1b60672c6" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Tarea</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Por Qu=C3=A9</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>D=C3=B3nde</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Qui=C3=A9n</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>C=C3=B3mo</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Configuraci=C3=B3n de runners dedicados para Terraform y CloudFormation.=
+</p></td>
+<td class=3D"confluenceTd">
+<p>Para ejecutar pipelines CI/CD espec=C3=ADficos para IaC. Terraform tiene=
+ prioridad inicial; CloudFormation se usar=C3=A1 m=C3=A1s adelante.</p></td=
+>
+<td class=3D"confluenceTd">
+<p><strong>GitLab (Batera)</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>Batera-EJIE</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Configurar runners en GitLab usando <code>batapps-tkcr-dind</code> (Dock=
+er-in-Docker) o runners dedicados en on-prem para cada tenant.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Probar los runners en AWS Anal=C3=ADtica.</p></td>
+<td class=3D"confluenceTd">
+<p>Validar que los pipelines pueden ejecutar IaC y desplegar recursos en AW=
+S.</p></td>
+<td class=3D"confluenceTd">
+<p><strong>AWS Anal=C3=ADtica (entorno </strong><code>dev/nop</code><strong=
+>)</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>Nosotros</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Dise=C3=B1ar y probar un pipeline b=C3=A1sico con stages <code>validate<=
+/code>, <code>plan</code> y <code>apply</code>. Verificar logs y corregir e=
+rrores en los runners.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Configurar variables de entorno en GitLab por tenant y entorno.</p></td>
+<td class=3D"confluenceTd">
+<p>Cada tenant y entorno necesita credenciales espec=C3=ADficas para accede=
+r a AWS.</p></td>
+<td class=3D"confluenceTd">
+<p><strong>GitLab Batera</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>Compartida</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A=C3=B1adir variables como <code>AWS_ACCESS_KEY_ID</code>, <code>AWS_SEC=
+RET_ACCESS_KEY</code> y <code>AWS_REGION</code> en GitLab a nivel de grupo =
+o proyecto.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Dise=C3=B1ar una jerarqu=C3=ADa de carpetas centralizada para IaC.</p></=
+td>
+<td class=3D"confluenceTd">
+<p>Estandarizar el c=C3=B3digo fuente de IaC entre tenants y entornos, aseg=
+urando reusabilidad y organizaci=C3=B3n.</p></td>
+<td class=3D"confluenceTd">
+<p><strong>GitLab (repositorios por tenant y entorno)</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>Compartida</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Crear grupos para cada tenant (<code>EITB</code>, <code>Osakidetza</code=
+>, <code>Vivienda</code>) y subcarpetas para <code>dev/nop</code> y <code>p=
+ro/prod</code>.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Implementar roles cross-account en AWS para GitLab runners.</p></td>
+<td class=3D"confluenceTd">
+<p>Garantizar permisos m=C3=ADnimos necesarios para los runners que gestion=
+an IaC en m=C3=BAltiples cuentas AWS.</p></td>
+<td class=3D"confluenceTd">
+<p><strong>AWS Anal=C3=ADtica y cuentas de tenants</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>Compartida</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Definir roles IAM para cada entorno con permisos espec=C3=ADficos (e.g.,=
+ <code>terraform:*</code>, <code>cloudformation:*</code>). Compartir ARN de=
+ roles entre cuentas seg=C3=BAn las necesidades de los tenants.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Desarrollar pipelines CI/CD para IaC automatizados.</p></td>
+<td class=3D"confluenceTd">
+<p>Automatizar despliegues, reducir errores manuales y optimizar el tiempo =
+de implementaci=C3=B3n.</p></td>
+<td class=3D"confluenceTd">
+<p><strong>GitLab (Batera)</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>Nosotros</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Dise=C3=B1ar pipelines con stages: <code>validate</code> (verificar c=C3=
+=B3digo), <code>plan</code> (simular cambios), <code>apply</code> (aplicar =
+cambios), y <code>destroy</code> (limpiar recursos).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Configurar flujos CI/CD por entorno (<code>dev/nop</code>, <code>pro/pro=
+d</code>).</p></td>
+<td class=3D"confluenceTd">
+<p>Los entornos de prueba (<code>dev/nop</code>) permiten validar cambios a=
+ntes de pasarlos a producci=C3=B3n (<code>pro/prod</code>).</p></td>
+<td class=3D"confluenceTd">
+<p><strong>GitLab (pipelines por tenant y entorno)</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>Nosotros</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Configurar pipelines con triggers manuales para entornos <code>pro/prod<=
+/code>. Incorporar artefactos reutilizables entre stages (<code>tfplan</cod=
+e>, <code>.terraform.lock.hcl</code>).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Capacitar a los equipos de los tenants.</p></td>
+<td class=3D"confluenceTd">
+<p>Asegurar que los equipos de cada tenant puedan gestionar su IaC de forma=
+ aut=C3=B3noma usando GitLab CI/CD y AWS.</p></td>
+<td class=3D"confluenceTd">
+<p><strong>Equipos de tenants (EITB, Osakidetza, Vivienda)</strong></p></td=
+>
+<td class=3D"confluenceTd">
+<p><strong>Batera-EJIE</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Crear gu=C3=ADas de uso y capacitar en pr=C3=A1cticas recomendadas para =
+IaC (e.g., commits, merges, pruebas, y despliegues controlados).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Supervisar y mantener los runners.</p></td>
+<td class=3D"confluenceTd">
+<p>Garantizar la disponibilidad y seguridad de los runners en GitLab.</p></=
+td>
+<td class=3D"confluenceTd">
+<p><strong>GitLab (Batera)</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>Batera-EJIE</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Revisar logs peri=C3=B3dicamente, actualizar runners cuando sea necesari=
+o y garantizar que est=C3=A1n alineados con las necesidades de cada tenant.=
+</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Monitorizar y documentar despliegues en producci=C3=B3n (<code>pro/prod<=
+/code>).</p></td>
+<td class=3D"confluenceTd">
+<p>Mantener trazabilidad y monitoreo continuo de los recursos desplegados e=
+n producci=C3=B3n.</p></td>
+<td class=3D"confluenceTd">
+<p><strong>AWS CloudWatch y GitLab Artifacts</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>Compartida</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Usar herramientas de monitoreo como AWS CloudWatch y reportes autom=C3=
+=A1ticos en GitLab para supervisar recursos y reportar incidentes o fallos.=
+</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"TareasyResponsabilidadesparalaIntegraci=C3=B3ndeGitLabconAWSAnal=
+=C3=ADticayTenants-V4-Jerarqu=C3=ADaPropuestadeCarpetasenGitLab"><strong>Je=
+rarqu=C3=ADa Propuesta de Carpetas en GitLab</strong></h3>
+<h4 id=3D"TareasyResponsabilidadesparalaIntegraci=C3=B3ndeGitLabconAWSAnal=
+=C3=ADticayTenants-V4-EstructuraporTenantyEntorno"><strong>Estructura por T=
+enant y Entorno</strong></h4>
+<ul>
+<li>
+<p><strong>Grupo Principal:</strong> <code>Batera-Tenants</code></p>
+<ul>
+<li>
+<p><strong>Tenant: </strong><code>Osakidetza</code></p>
+<ul>
+<li>
+<p>Carpeta: <code>dev/nop</code> (entorno de prueba)</p></li>
+<li>
+<p>Carpeta: <code>pro/prod</code> (entorno de producci=C3=B3n)</p></li>
+</ul></li>
+<li>
+<p><strong>Tenant: </strong><code>Vivienda</code></p>
+<ul>
+<li>
+<p>Carpeta: <code>dev/nop</code></p></li>
+<li>
+<p>Carpeta: <code>pro/prod</code></p></li>
+</ul></li>
+<li>
+<p><strong>Tenant: </strong><code>EITB</code></p>
+<ul>
+<li>
+<p>Carpeta: <code>dev/nop</code></p></li>
+<li>
+<p>Carpeta: <code>pro/prod</code></p></li>
+</ul></li>
+<li>
+<p><strong>Carpeta Com=C3=BAn:</strong> <code>M=C3=B3dulos-Reusables</code>=
+</p>
+<ul>
+<li>
+<p>M=C3=B3dulos de Terraform comunes compartidos entre todos los tenants.</=
+p></li>
+</ul></li>
+</ul></li>
+</ul>
+<h4 id=3D"TareasyResponsabilidadesparalaIntegraci=C3=B3ndeGitLabconAWSAnal=
+=C3=ADticayTenants-V4-VentajasdeEstaEstructura:"><strong>Ventajas de Esta E=
+structura:</strong></h4>
+<ul>
+<li>
+<p><strong>Aislamiento por Tenant:</strong> Cada tenant tiene acceso solo a=
+ sus carpetas y entornos.</p></li>
+<li>
+<p><strong>Reutilizaci=C3=B3n de C=C3=B3digo:</strong> M=C3=B3dulos compart=
+idos permiten mantener IaC estandarizada.</p></li>
+<li>
+<p><strong>Facilidad de Gesti=C3=B3n:</strong> Los grupos y subcarpetas fac=
+ilitan la administraci=C3=B3n de permisos y la colaboraci=C3=B3n.</p></li>
+</ul>
+<hr>
+<h3 id=3D"TareasyResponsabilidadesparalaIntegraci=C3=B3ndeGitLabconAWSAnal=
+=C3=ADticayTenants-V4-Automatizaci=C3=B3nporEntornos"><strong>Automatizaci=
+=C3=B3n por Entornos</strong></h3>
+<h4 id=3D"TareasyResponsabilidadesparalaIntegraci=C3=B3ndeGitLabconAWSAnal=
+=C3=ADticayTenants-V4-FlujodeTrabajo:"><strong>Flujo de Trabajo:</strong></=
+h4>
+<ol start=3D"1">
+<li>
+<p><strong>Entorno </strong><code>dev/nop</code><strong>:</strong></p>
+<ul>
+<li>
+<p><strong>Prop=C3=B3sito:</strong> Validar cambios en un entorno de prueba=
+.</p></li>
+<li>
+<p><strong>Pipeline:</strong></p>
+<ul>
+<li>
+<p>Stages: <code>validate</code>, <code>plan</code>, <code>apply</code>.</p=
+></li>
+<li>
+<p>El stage <code>apply</code> es manual para evitar errores accidentales.<=
+/p></li>
+</ul></li>
+<li>
+<p><strong>Ejemplo de Pipeline Simplificado:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">stages:
+  - validate
+  - plan
+  - apply
+
+validate:
+  stage: validate
+  script:
+    - terraform validate
+
+plan:
+  stage: plan
+  script:
+    - terraform plan -out=3Dtfplan
+  artifacts:
+    paths:
+      - tfplan
+      - .terraform/
+      - .terraform.lock.hcl
+    expire_in: 1 week
+
+apply:
+  stage: apply
+  script:
+    - terraform apply tfplan
+  when: manual
+</pre>
+</div>
+</div>
+<p></p></li>
+</ul></li>
+<li>
+<p><strong>Entorno </strong><code>pro/prod</code><strong>:</strong></p>
+<ul>
+<li>
+<p><strong>Prop=C3=B3sito:</strong> Desplegar en producci=C3=B3n solo despu=
+=C3=A9s de validar en <code>dev/nop</code>.</p></li>
+<li>
+<p><strong>Pipeline:</strong></p>
+<ul>
+<li>
+<p>Similar al de <code>dev/nop</code>, pero con mayores controles (e.g., re=
+visiones y aprobaciones).</p></li>
+<li>
+<p>El stage <code>apply</code> debe ser manual y limitado a usuarios autori=
+zados.</p></li>
+</ul></li>
+</ul></li>
+</ol>
+<hr>
+<h3 id=3D"TareasyResponsabilidadesparalaIntegraci=C3=B3ndeGitLabconAWSAnal=
+=C3=ADticayTenants-V4-SiguientesPasos"><strong>Siguientes Pasos</strong></h=
+3>
+<ol start=3D"1">
+<li>
+<p><strong>Configurar y probar runners de prueba (prioridad: Terraform).</s=
+trong></p></li>
+<li>
+<p><strong>Definir y validar la jerarqu=C3=ADa de carpetas en GitLab.</stro=
+ng></p></li>
+<li>
+<p><strong>Dise=C3=B1ar pipelines CI/CD para </strong><code>dev/nop</code><=
+strong> con triggers manuales para </strong><code>pro/prod</code><strong>.<=
+/strong></p></li>
+<li>
+<p><strong>Coordinar con Batera-EJIE para configurar permisos en AWS y GitL=
+ab.</strong></p></li>
+<li>
+<p><strong>Capacitar a los equipos de los tenants en el uso de los pipeline=
+s.</strong></p></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_26_957780862.1731930582606--
